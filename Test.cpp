@@ -1,7 +1,11 @@
 #include <iostream>
 
+int Add(int a, int b) {
+    return a + b;
+}
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << Add(10, 20);
 	return 0;
 }
