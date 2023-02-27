@@ -1,6 +1,9 @@
 #include <iostream>
 
+int Sum(int a, int b) {
+	return a + b;
+}
+
 int main() {
-	std::cout << "Hello, world!";
-	return 0;
+	std::cout << Sum(10, 20);
 }
