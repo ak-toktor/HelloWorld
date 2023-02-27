@@ -1,3 +1,8 @@
+#include <iostream>
+int Sum(int a, int b) {
+	return a + b;
+}
+
 int main() {
-	return 0;
+	std::cout << Sum(10, 20);
 }
